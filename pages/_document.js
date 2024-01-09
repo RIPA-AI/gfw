@@ -33,9 +33,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {isProduction && (
-            <script src="https://cmp.osano.com/AzyfddTRtqi1560Dk/9ed60354-c199-4e89-92c8-047b83aa65a3/osano.js" />
-          )}
+          <script src="https://cmp.osano.com/AzyfddTRtqi1560Dk/bbd879ba-792b-4caf-9a92-a17b920706f7/osano.js" />
           <style
             type="text/css"
             dangerouslySetInnerHTML={{ __html: mediaStyles }}
@@ -144,6 +142,13 @@ export default class MyDocument extends Document {
           <main id="maincontent">
             <Main />
           </main>
+          <a
+            href=""
+            className="osano-cookie-preference-link"
+            title="Manage privacy and cookie preferences"
+          >
+            Cookie Preferences
+          </a>
           <NextScript />
         </body>
       </Html>
